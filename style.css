@@ -14,8 +14,7 @@ body  {
 }
 #global {
 	position:absolute;
-	left:0px;
-	right:0px;
+	width:100%;
 	text-align:center;
 	white-space:nowrap;
 	margin-top:15px;
@@ -30,12 +29,15 @@ body  {
 	border: 3px solid #000;
 }
 #footer {
+	width:100%;
 	position:fixed;
 	bottom:0px;
-	left:0px;
-	right:0px;
 	background-color:#000;
 	text-align:center;	
+}
+#menu {
+	width:100%;
+	text-align:center;
 }
 #menu li {
 	list-style:none;
