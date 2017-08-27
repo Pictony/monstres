@@ -11,7 +11,6 @@ body  {
 	font-family: 'greyscalebasicregular';
 	font-size:16px;
 	letter-spacing: 1px;
-	text-align:center;
 }
 #global {
 	position:absolute;
@@ -34,10 +33,12 @@ body  {
 	position:fixed;
 	bottom:0px;
 	background-color:#000;
+	text-align:center;
 }
-#menu {
-	display:inline-block;
-	background-color:red;
+
+ul, li {
+	margin:0;
+	padding:0;
 }
 #menu li {
 	list-style:none;
@@ -47,13 +48,13 @@ body  {
 	color:#fff;
 	display:inline-block;
 	position:relative;
-	min-width:180px;
-	height:20px;
+	min-height:20px;
 	text-align:center;
-	padding-top: 5px;
+	padding: 5px 10px 0px 10px;
 	vertical-align:top;	
 	text-decoration:underline;
 }
+
 #menu li ul, #menu li p {
 	display:none;
 }
@@ -70,6 +71,9 @@ body  {
 #menu li:hover ul li, #menu li.hover ul li {
 	display:block;
 	padding:5px 0px 5px 0px;
+}
+#sommaire {
+	left:-50px;
 }
 #credits {
 	min-width:420px;
