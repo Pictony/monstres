@@ -41,7 +41,9 @@ body  {
 	
 #menu>li{
 	color:#fff;
-	display:inline;
+	display:inline-block;
+	*display: inline;
+	*zoom: 1;
 	position:relative;
 	min-width:180px;
 	height:20px;
@@ -49,8 +51,6 @@ body  {
 	padding-top: 5px;
 	vertical-align:top;	
 	text-decoration:underline;
-	margin-left: 20px;
-	margin-right:20px;
 }
 #menu li ul, #menu li p {
 	display:none;
@@ -59,6 +59,7 @@ body  {
 	display:block;
 	position:absolute;
 	width:156px;
+	*margin-left:-180px;
 	bottom:25px;
 	border: 1px solid #000;
 	padding:8px 12px;
