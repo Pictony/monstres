@@ -35,6 +35,9 @@ body  {
 	position:fixed;
 	bottom:0px;
 	background-color:#000;
+	text-align:center;
+	margin:auto;
+	padding:auto;
 }
 
 ul, li {
