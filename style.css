@@ -11,6 +11,7 @@ body  {
 	font-family: 'greyscalebasicregular';
 	font-size:16px;
 	letter-spacing: 1px;
+	text-align:center;
 }
 #global {
 	position:absolute;
@@ -33,11 +34,10 @@ body  {
 	position:fixed;
 	bottom:0px;
 	background-color:#000;
-	text-align:center;	
 }
 #menu {
-	width:100%;
-	text-align:center;
+	display:inline-block;
+	background-color:red;
 }
 #menu li {
 	list-style:none;
@@ -46,8 +46,6 @@ body  {
 #menu>li{
 	color:#fff;
 	display:inline-block;
-	*display: inline;
-	*zoom: 1;
 	position:relative;
 	min-width:180px;
 	height:20px;
@@ -63,7 +61,6 @@ body  {
 	display:block;
 	position:absolute;
 	width:156px;
-	*margin-left:-180px;
 	bottom:25px;
 	border: 1px solid #000;
 	padding:8px 12px;
