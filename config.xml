@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.helloworld" version="1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.amphitrite" version="1.0.0">
   <name>Les Monstres d'Amphitrite</name>
   <description>Bande dessinée numérique. Application, version exposition.</description>
   <author href="http://www.anthonyrageul.net">Tony</author>
