@@ -86,11 +86,7 @@ ul, li {
 #sommaire {
 	margin-left:-56px;
 }
-#credits {
-	min-width:420px;
-	margin-left:-210px;
-	text-align:left;
-}
+
 #menu a {
 	font-weight:normal;
 }
@@ -116,3 +112,8 @@ ul, li {
 	font-size:20px;
 }
 
+#menu #credits {
+	min-width:420px;
+	margin-left:-210px;
+	text-align:left;
+}
